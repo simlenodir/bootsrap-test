@@ -1,0 +1,59 @@
+.my-team {
+    background-color: #004047;
+}
+
+.col {
+    position: relative;
+    margin: 10px;
+    padding: 35px;
+    margin-bottom: 20px;
+    background-color: #012F34;
+    text-align: center;
+    color: #Ffff;
+}
+
+.my-team__title {
+    padding-top: 40px;
+    padding-bottom: 49px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.plus {
+    position: absolute;
+    left: 50% ;
+   transform: translateX(-25px);
+}
+
+.my__text2 {
+    padding-bottom: 0px;
+}
+
+.pink :hover {
+    background-color: pink;
+}
+
+@media screen and (max-width:678px) {
+    .my-team__title {
+        font-size: 36px;
+        line-height: 28px;
+    }
+}
+
+svg:hover > path {
+    fill: pink;
+}
+
+.plus2 {
+    position: absolute;
+    left: 50%;
+    bottom: -20px;
+    transform: translateX(-20px);
+}
+
+.intro__sec{
+    background-color: #000000;
+}
