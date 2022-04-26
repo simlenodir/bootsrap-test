@@ -24,8 +24,8 @@
 
 .plus {
     position: absolute;
-    left: 50% ;
-   transform: translateX(-25px);
+    left: 50%;
+    transform: translateX(-25px);
 }
 
 .my__text2 {
@@ -43,7 +43,7 @@
     }
 }
 
-svg:hover > path {
+svg:hover>path {
     fill: pink;
 }
 
@@ -54,6 +54,13 @@ svg:hover > path {
     transform: translateX(-20px);
 }
 
-.intro__sec{
+.intro__sec {
     background-color: #000000;
+}
+
+@media screen and (max-width:1200px) {
+    .person-img {
+        width: 227px;
+        height: 227px;
+    }
 }
